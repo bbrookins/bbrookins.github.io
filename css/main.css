@@ -164,7 +164,7 @@ p.lead {
 }
 
 .extracur ul{
-  list-style-position: inside 
+  list-style-position: outside; 
 }
 
 
