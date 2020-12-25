@@ -164,7 +164,7 @@ p.lead {
 }
 
 .extracur ul{
-  list-style-position: inside; 
+  list-style-position: inside;
 }
 
 
@@ -2548,6 +2548,10 @@ header .logo a {
 }
 .contact-info h5 {
 	color: #FF0077;
+}
+
+.contact-info p {
+	color: #888888;
 }
 
 /**
