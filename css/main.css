@@ -94,6 +94,10 @@ a:hover, a:focus, a:active {
 	outline: 0;
 }
 
+.timeline-content a:hover {
+  color: #FF0077;
+}
+
 /**
  * ===================================================================
  * 03. typography & general theme styles - (_document-setup.scss)
@@ -2729,6 +2733,18 @@ footer .copyright span:last-child::after {
 }
 #go-top a:hover {
 	background: #000000;
+}
+
+.timeline-content a:hover {
+  color: #FF0077;
+}
+
+.timeline-content a {
+  color: #6e6e6e;
+}
+
+sup, sub {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
