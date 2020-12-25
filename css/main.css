@@ -159,15 +159,82 @@ p.lead {
 	color: #888888;
 }
 
-div .extracur{
-  position: relative;
-  left: 200px;
-}
+/* .extracur{
+  top: 20px;
+  max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
 	}
 }
+
+
+
+@media only screen and (max-width:1524px) {
+
+  .extracur{
+    position: relative;
+    max-width: 700px;
+  	margin-left: 200px;
+  	margin-right: auto;
+  }
+}
+
+@media only screen and (max-width:820px) {
+
+  .extracur{
+    position: relative;
+    max-width: 700px;
+  	margin-left: 150px;
+  	margin-right: auto;
+  }
+}
+
+@media only screen and (max-width:760px) {
+
+  .extracur{
+    position: relative;
+    max-width: 700px;
+  	margin-left: 100px;
+  	margin-right: auto;
+  }
+}
+
+@media only screen and (max-width:680px) {
+
+  .extracur{
+    position: relative;
+    max-width: 700px;
+  	margin-left: 75px;
+  	margin-right: auto;
+  }
+}
+
+@media only screen and (max-width:520px) {
+
+  .extracur{
+    position: relative;
+    max-width: 700px;
+  	margin-left: 50px;
+  	margin-right: auto;
+  }
+}
+
+@media only screen and (max-width:400px) {
+
+  .extracur{
+    position: relative;
+    max-width: 700px;
+  	margin-left: 10px;
+  	margin-right: auto;
+  }
+}
+
 em, i, strong, b {
 	font-size: 1.7rem;
 	line-height: 3rem;
@@ -412,11 +479,19 @@ img.pull-left {
 	.bgrid {
 		padding: 0 10px;
 	}
+  div .extracur{
+    position: relative;
+    left: 25px;
+  }
 }
 @media only screen and (max-width:400px) {
 	.bgrid {
 		padding: 0;
 	}
+  div .extracur{
+    position: relative;
+    left: 5px;
+  }
 }
 
 /**
